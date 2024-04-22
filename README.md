@@ -1,4 +1,4 @@
-# UBUNTU INSTALLATION
+## UBUNTU INSTALLATION
 1.Installing Oracle Virtual Box for Windows
 
 2.Installing Ubuntu iso file on windows
@@ -14,6 +14,18 @@
 <img src= "https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/RISC%20GNU%20TOOL%20CHAIN.png?raw=true" />
 
 ## YOSYS
+
+<img src= "https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/Yosys.png?raw=true" />
+
+<img src="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/yosys%20.png?raw=true" />
+
+## iVerilog
+
+<img src="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/iverilog.png?raw=true" />
+
+## Gtkwave
+
+<img src ="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/gtkwave.png?raw=true" />
 
 
 
