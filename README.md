@@ -36,5 +36,15 @@ Installation of tools
 Add description for each image. Identify instruction type and exact 32-bit instruction code in 
 the instruction type format.  
 
+## RISC-V ISA: 
+The RISC-V ISA, which stands for Reduced Instruction Set Computing is an open standard 
+instruction set architecture (ISA) based on established reduced instruction set computing 
+principles. It's designed to be modular, scalable, and customizable, making it suitable for a 
+wide range of applications, from embedded systems to supercomputers. RISC-V is gaining 
+popularity due to its open nature, which fosters innovation and collaboration across various 
+industries and academic institutions. It offers different standard extensions to accommodate 
+diverse computing requirements, such as integer, floating-point, vector, cryptographic, and 
+more.
+
 
 
