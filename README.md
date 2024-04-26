@@ -1,5 +1,8 @@
 
-# TASK1
+# TASK1 
+
+Installation of tools
+
 ## UBUNTU INSTALLATION
 1.Installing Oracle Virtual Box for Windows
 
@@ -28,6 +31,10 @@
 ## Gtkwave
 
 <img src ="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/gtkwave.png?raw=true" />
+
+# TASK 2
+Add description for each image. Identify instruction type and exact 32-bit instruction code in 
+the instruction type format.  
 
 
 
