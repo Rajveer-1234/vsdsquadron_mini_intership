@@ -54,6 +54,7 @@ more.
 6. J-Type
 
 Detailed Description of Instruction Formats and instructions which need to be identfied are uploaded in TASK-2 pdf
+[RISC-V INTERSHIP TASK-2](TASK-2.pdf)
 
 
 
