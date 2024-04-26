@@ -46,6 +46,7 @@ industries and academic institutions. It offers different standard extensions to
 diverse computing requirements, such as integer, floating-point, vector, cryptographic, and 
 more.
 
+## TYPES OF INSTRUCTION FORMAT
 1. R-Type
 2. I-Type
 3. S-Type
