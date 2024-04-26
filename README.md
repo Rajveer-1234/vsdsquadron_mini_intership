@@ -46,5 +46,14 @@ industries and academic institutions. It offers different standard extensions to
 diverse computing requirements, such as integer, floating-point, vector, cryptographic, and 
 more.
 
+1. R-Type
+2. I-Type
+3. S-Type
+4. B-Type
+5. U-Type
+6. J-Type
+
+Detailed Description of Instruction Formats and instructions which need to be identfied are uploaded in TASK-2 pdf
+
 
 
