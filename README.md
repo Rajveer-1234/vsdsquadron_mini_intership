@@ -83,7 +83,8 @@ diverse computing requirements, such as integer, floating-point, vector, cryptog
 more.
 
 ## TYPES OF INSTRUCTION FORMAT
-1. R-Type: This format is used for instructions that operate on registers only, without any 
+### R-Type:
+This format is used for instructions that operate on registers only, without any 
 memory access. R-Type instructions typically include operations like arithmetic (addition, 
 subtraction, etc.), logical (AND, OR, XOR), comparison, and shifting.
 
