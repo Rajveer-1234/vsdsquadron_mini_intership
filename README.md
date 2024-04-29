@@ -86,12 +86,10 @@ more.
 1. R-Type: This format is used for instructions that operate on registers only, without any 
 memory access. R-Type instructions typically include operations like arithmetic (addition, 
 subtraction, etc.), logical (AND, OR, XOR), comparison, and shifting.
-```
-  31       25 24      20 19      15 14      12 11      7 6        0
-+------------+--------+--------+--------+--------+--------+--------+
-|   funct7   |   rs2  |   rs1  |  funct3|    rd  | opcode |   R    |
-+------------+--------+--------+--------+--------+--------+--------+
-```
+
+|31-25|24-20|19-15|14-12|11-7|6-0|
+|--|-----|-----|-----|-----|---|
+|funct7|rs2|rs1  |  funct3|    rd  | opcode |
 
 2. I-Type (Immediate): Instructions in this format involve immediate values (constants) in 
 addition to register operands. I-Type instructions are used for operations where one operand is 
@@ -100,33 +98,28 @@ instructions have a 12bit constant (or immediate) as one of the two source opera
 within the 32bit instruction word. This constant is considered a 12-bit signed 2's complement 
 integer, and it is always sign extended to provide a 32-bit operand.
 
-```
-  31       25 24      20 19      15 14      12 11      7 6        0
-+------------+--------+--------+--------+--------+--------+--------+
-|  imm[11:0] |   rs1  |  funct3|    rd  | opcode |   I    |  imm[11:0]
-+------------+--------+--------+--------+--------+--------+--------+
-```
+| 31  | 25  | 24  | 20  | 19  | 15  | 14  |
+| --- | --- | --- | --- | --- | --- | --- |
+| imm[11:0] | rs1 | funct3 | rd | opcode | I | imm[11:0] |
+
 
 3. S-Type (Store-Type): This format is used for memory store instructions. S-Type instructions 
 encode an immediate offset, a source register containing the data to be stored, and a base 
 register specifying the memory address.
-```
-  31       25 24      20 19      15 14      12 11      7 6        0
-+------------+--------+--------+--------+--------+--------+--------+
-| imm[11:5] |   rs2  |   rs1  |  funct3| imm[4:0]|  opcode|    S    |
-+------------+--------+--------+--------+--------+--------+--------+
-```
+
+| 31     | 25 24 | 20 19 | 15 14 | 12 11 | 7 6   | 0      |
+| ------ | ----- | ----- | ----- | ----- | ----- | ------ |
+| imm[11:5] | rs2   | rs1   | funct3| imm[4:0]| opcode| S      |
+
 
 4.B-Type: Instructions in this format are used for branching operations, which involve 
 conditional jumps based on certain conditions being met. B-Type instructions encode a branch 
 offset, two source registers for comparison, and the branch condition.
 
-```
-  31       25 24      20 19      15 14      12 11      7 6        0
-+------------+--------+--------+--------+--------+--------+--------+
-| imm[12]    | imm[10:5]|   rs2  |   rs1  |  funct3| imm[4:1]| imm[11] |
-+------------+--------+--------+--------+--------+--------+--------+
-```
+| 31        | 25 24    | 20 19    | 15 14    | 12 11    | 7 6      | 0        |
+| --------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| imm[12]   | imm[10:5]| rs2      | rs1      | funct3   | imm[4:1] | imm[11]  |
+
 
 5.U-Type (Upper Immediate-Type) Format: These instructions are used for setting the upper 
 bits of a register with an immediate value. They are primarily used for large immediate values 
