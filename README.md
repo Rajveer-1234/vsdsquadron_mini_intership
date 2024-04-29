@@ -264,7 +264,7 @@ The RISC-V GNU Toolchain Compiler includes several components:
 It supports various RISC-V ISA extensions including RV32I, RV32IM, RV64I, RV64IM, and more.
 
 #### 1.First we will write C code for printing sum of numbers from 1 to n
-```
+```cpp
 #include<stdio.h>
 
 int main()
