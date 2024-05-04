@@ -9,4 +9,4 @@
 <img src="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/Board.png?raw=true">/
 
 ### Board Specifications
-img src=<"https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/Specification.png?raw=true">/
+<img src="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/Specification.png?raw=true">/
