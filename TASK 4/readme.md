@@ -13,6 +13,8 @@ SPIKE Simulation and observation with -O1 and -Ofast
 
 ### SPIKE SIMULATION WITH O1
 
+Here we will use spike RISCV ISA Simulator to rum the object file of RISCV
+
 <img src="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/riscv64spike01.png?raw=true">/
 
 <img src="https://github.com/Rajveer-1234/vsdsquadron_mini_intership/blob/main/riscv64%20O1%20main.png?raw=true">/
