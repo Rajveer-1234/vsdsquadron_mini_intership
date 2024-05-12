@@ -24,6 +24,9 @@ The project aims to create a motion detection system using a Passive Infrared (P
 * LED Anode Pin connected to PD6 Of VSDSquadron Mini Board.
 * LED Cathode connected to GND Of VSDSquadron Mini Board.
 
+  ![task6](https://github.com/Rajveer-1234/vsdsquadron_mini_intership/assets/110220051/e43f376b-7665-40bc-884b-8b5555c4a4eb)
+
+
 ## CODE FOR PROGRAMMING
 ```
 #include <ch32v00x.h>
